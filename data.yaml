@@ -1,0 +1,7 @@
+train: datasets/X-rays/train
+val: datasets/X-rays/valid
+test: datasets/X-rays/test
+
+nc: 3  # number of classes
+
+names: ['cavities', 'broken', 'healthy']
