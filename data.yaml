@@ -1,7 +1,10 @@
-train: datasets/X-rays/train
-val: datasets/X-rays/valid
-test: datasets/X-rays/test
+path: ./datasets/X-rays
+train: train/images
+val: val/images
+test: test/images
 
-nc: 3  # number of classes
 
-names: ['cavities', 'broken', 'healthy']
+nc: 4
+
+names: ['healthy' , 'cavity' , 'broken' , 'other prob']
+
