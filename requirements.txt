@@ -1,0 +1,35 @@
+# Deep Learning
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Object Detection (YOLOv8)
+ultralytics
+
+# Image Processing
+opencv-python
+Pillow
+
+# Web Backend
+fastapi
+uvicorn[standard]
+
+# Frontend API communication
+python-multipart
+jinja2
+
+# Data Science Utils
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Annotation & Dataset Tools
+roboflow
+
+# PDF / Report Generation
+reportlab
+fpdf
+
+# Optional: Jupyter for experiments
+jupyter
